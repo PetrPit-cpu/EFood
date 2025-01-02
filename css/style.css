@@ -1,0 +1,849 @@
+@font-face {
+    font-family:'Rubik';
+    src: local('RubikRegular'),
+         url('./fonts/Rubik-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  @font-face {
+    font-family:'Rubik';
+    src: local('RubikMedium'),
+         url('./fonts/RubikMedium.ttf') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  @font-face {
+    font-family:'DMSans';
+    src: local('DMSansRegular'),
+         url('./font/DMSans-Regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  @font-face {
+    font-family:'Rubik';
+    src: local('RubikLight'),
+         url('./fonts/Rubik-Light.ttf') format('truetype');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+  }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'Rubik',  sans-serif;
+    font-weight: 500;
+    background-color: #f9f9f9;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: 136px;
+    margin-right: 133px;
+}
+
+/*header section1*/
+
+.header {
+    margin-top: 59.36px;
+}
+
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    align-items: center;
+    gap: 60px;
+}
+
+.header__img {
+    max-width: 106px;
+    min-height: 38.55px;
+}
+
+.header__link {
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header__home {
+    color: #FF7A50;
+}
+
+.header__btn {
+    padding: 0;
+    background-color: transparent; /* Делаем фон прозрачным */
+    border: none; /* Также можно убрать рамку, если она есть */
+    cursor: pointer;
+}
+
+.header__button {
+    color: #ffffff;
+    padding: 14.83px 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    cursor: pointer;
+}
+
+/*section2*/
+
+.hero__container {
+    gap: 60px;
+    margin-left: 135px;
+    margin-right: 74px;
+    display: flex;
+}
+
+.hero__title,
+.download__title {
+    margin: 220.23px 0 23px 0;
+    font-size: 66px;
+    color: #363853;
+}
+
+.hero__img {
+    max-width: 721px;
+    min-height: 681px;
+}
+
+.hero__highlight,
+.category__highlight,
+.service__highlight,
+.restaurant__highlight,
+.download__highlight,
+.reviews__highlight {
+    color: #FF6838;
+}
+
+.hero__text-1 {
+    color: #363853;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hero__button {
+    color: #ffffff;
+    padding: 14.83px 28px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    cursor: pointer;
+}
+
+.hero__link-app {
+    border-bottom: 1px solid #000;
+}
+
+.hero__block-1 {
+    max-width: 530px;
+}
+
+.hero__block-2 {
+    max-width: 721px;
+}
+
+.hero__block-2 {
+    margin-top: 104.77px;
+}
+
+.hero__text-1 {
+    margin-bottom: 44.78px;
+}
+
+.hero__block-1-bottom {
+    gap: 30px;
+    align-items: center;
+}
+
+/*section3*/
+
+.category {
+    margin-top: 94.46px;
+}
+
+.category__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #363853;
+    margin-top: 0;
+    margin-bottom: 54.87px;
+}
+
+.category__button {
+    gap: 10px;
+    align-items: center;
+    color: #ffffff;
+    padding: 13px 54px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF7A50;
+    cursor: pointer;
+}
+
+.category__list-burger {
+    gap: 10px;
+    align-items: center;
+}
+
+.burger {
+    padding: 1.2px 49px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.hot {
+    padding: 11px 45px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.black {
+    padding: 11px 58px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.chicken {
+    padding: 11px 58px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.category__block-1,
+.category-list-items-1 {
+    gap: 49px;
+}
+
+.category__block-1 {
+    margin-bottom: 39px;
+}
+
+.category__burger-img {
+    max-width: 144px;
+    min-height: 144px;
+}
+
+.category__block-2 {
+    margin-bottom: 40px;
+    gap: 49px;
+}
+
+.category-item-rating {
+    transform: translateY(-26px);
+}
+
+.category__text {
+    margin-bottom: 9px;
+    letter-spacing: -0.1px;
+}
+
+.category-dollar {
+    margin-bottom: 11px;
+}
+
+.category__text {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.category__btn {
+    padding: 7px 13px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #FF7A50;
+    border: none;
+    cursor: pointer;
+}
+
+.category__items-slade {
+    align-items: center;
+    justify-content: center;
+}
+
+.category__list-sandwich {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 19.5px 22px 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.sandwich {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 33.5px 22px 33.5px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.sandwich-2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 33.5px 22px 33.5px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.sandwich-3 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 33.5px 22px 33.5px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.sandwich-4 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 33.5px 22px 33.5px;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+}
+
+.category__left-img-slade {
+    margin-right: 25px;
+}
+
+.category__right-img-slade {
+    margin-left: 25px;
+}
+
+.category__items-slade {
+    display: flex;
+    gap: 13.85px; /* Устанавливаем отступы между элементами */
+}
+
+.category__item:last-child {
+    margin-right: 0; /* Убираем дополнительный отступ у последнего элемента */
+}
+
+.category {
+    margin-bottom: 87px;
+}
+
+/*section4*/
+
+.service {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.service__items {
+    max-width: 449px;
+    min-height: auto;
+}
+
+.service__container {
+    display: flex;
+    justify-content: center;
+    max-width: 1212px;
+    height: auto;
+}
+
+.service__img {
+    max-width: 626px;
+    min-height: 723px;
+}
+
+.service__title {
+    font-size: 36px;
+    color: #363853;
+    margin-top: 0;
+    margin-bottom: 54.87px;
+}
+
+.service__text {
+    line-height: 30px;
+    margin-bottom: 13px;
+}
+
+.service__items {
+    margin-top: 201px;
+    flex-direction: column;
+}
+
+.service__block-1 {
+    display: flex;
+}
+
+.service__btn {
+    padding: 17px 44px;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px 30px 1px 30px;
+    background-color: #FF7A50;
+    line-height: 23.7px;
+    cursor: pointer;
+}
+
+.service__icon-item {
+    align-items: center;
+}
+
+.service__timer {
+    margin-right: 20px;
+}
+
+.service__delivery {
+    margin-right: 28px;
+}
+
+.service__resturent {
+    margin-right: 25.81px;
+}
+
+.service__item-6 {
+    margin-bottom: 49px;
+}
+
+/*section-5*/
+.restaurant-img,
+.restaurant__item {
+    max-width: 361px;
+    min-height: 299px;
+}
+
+.restaurant__title,
+.reviews__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #363853;
+    margin-bottom: 54.87px;
+}
+
+.restaurant__container {
+    max-width: 1169px; /* Ограничиваем контейнер для десктопа */
+    margin: 0 auto; /* Центрируем контейнер */
+}
+
+.restaurant__items-list {
+    display: flex; /* Включаем Flexbox */
+    flex-wrap: wrap; /* Разрешаем перенос элементов на следующий ряд */
+    justify-content: space-between; /* Распределяем элементы с равными промежутками */
+    gap: 43px; /* Устанавливаем расстояние между элементами */
+    padding: 0;
+}
+
+.restaurant__item {
+    flex: 1 1 calc(33.333% - 43px); /* Элемент занимает 1/3 строки минус отступы */
+    max-width: calc(33.333% - 43px); /* Устанавливаем максимальную ширину для 3 элементов в строке */
+    text-align: center; /* Центрируем содержимое, если это нужно */
+}
+
+.restaurant-img {
+    width: 100%; /* Изображение растягивается на ширину item */
+    height: auto; /* Сохраняем пропорции изображения */
+    border-radius: 1px; /* Закругление углов, если необходимо */
+}
+
+.restaurant-text {
+    display: flex;
+    color: #363853;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.restaurant__text-card {
+    max-width: 361px;
+    min-height: 118px;
+    padding: 20px 20px;
+}
+
+.restaurant__item {
+    background: #ffffff;
+    border-radius: 53px 1px;
+}
+
+.restaurant__timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant__text-one {
+    color: #363853;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.restaurant__text-btn {
+    border: none;
+    background-color: #FF7A50;
+    border-radius: 20px 20px 1px 20px;
+    cursor: pointer;
+}
+
+.restaurant__svg {
+    padding: 5px 27px 4px 28px;
+}
+
+.restaurant__text-timer {
+    margin-right: 9.74px;
+}
+
+.restaurant__text-one {
+    margin-right: 30px;
+}
+
+.restaurant {
+    margin-bottom: 165px;
+}
+
+/*section6*/
+
+.download__container {
+    max-width: 1169px; /* Ограничиваем контейнер для десктопа */
+    margin: 0 auto; /* Центрируем контейнер */
+    justify-content: space-between;
+}
+
+.download__block-1 {
+    gap: 132px;
+}
+
+.download__items {
+    flex-direction: column;
+}
+
+.download__img {
+    max-width: 616.74px;
+    min-height: 480.59px;
+}
+
+.download__content {
+    display: flex;
+    align-items: center;
+}
+
+.download__title-app {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.download__text {
+    max-width: 420px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.download__icon-item {
+    gap: 35px;
+}
+
+.download {
+    margin-bottom: 166.41px;
+}
+
+/*section7*/
+
+.reviews__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews__element-1 {
+    margin-left: 141px;
+}
+
+.reviews__img {
+    max-width: 433.38px;
+    min-height: 519.59px;
+}
+
+.poj {
+    display: flex;
+}
+
+.reviews__items-name-2 {
+    display: flex;
+}
+
+.reviews__item-text-2 {
+    margin-bottom: 74px;
+    max-width: 573px;
+}
+
+.reviews__text {
+    letter-spacing: 0.6px;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.reviews-text-jole {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.7px;
+    color: #FF7A50;
+}
+
+.reviews__text-food {
+    color: #AAAAAA;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.59px;
+}
+
+.reviews__item-two {
+    margin-bottom: 18px;
+}
+
+.reviews__items-name-1 {
+    margin-right: 321px;
+}
+
+.reviews__items-name-2 {
+    gap: 44px;
+}
+
+.none {
+    margin-right: 176px;
+    display: flex;
+    align-items: center;
+    height: 310px;
+}
+
+.reviews__items {
+    margin-right: 30px;
+    display: block;
+    margin-bottom: 308px;
+}
+
+.kio {
+    margin-left: 10px;
+    display: block;
+    margin-top: 57px;
+}
+
+.reviews {
+    margin-bottom: 124px;
+}
+
+/*section8*/
+
+.offer__container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1170px;
+    min-height: 312px;
+    background-color: #FF7A50;
+    border-radius: 20px;
+}
+
+.offer__thesis {
+    margin-left: 30px;
+}
+
+.offer__items-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer__text {
+    margin-bottom: 31.45px;
+    color: #ffffff;
+}
+
+.offer__title {
+    margin: 59px 0 12px 0;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 47.4px;
+}
+
+.offer__btn {
+    color: #ffffff;
+}
+
+.offer__items-3 {
+    gap: 419px;
+    align-items: center;
+    padding: 10px 11.8px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 40px;
+}
+
+.offer__btn {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px 47.2px;
+    background-color: #FF6838;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+}
+
+.offer__svg {
+    margin-right: 8.48px;
+}
+
+.offer {
+    margin-bottom: 121px;
+}
+
+/*section*/
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__items-list-1 {
+    flex-direction: column;
+}
+
+.item-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 7px;
+}
+
+.footer__items-list-1 li:last-child {
+    margin-bottom: 0; /* Убираем отступ у последнего элемента */
+}
+
+.footer__items-list-1 {
+    margin-right: 118px;
+}
+
+
+.footer__items-list-2,
+.footer__items-list-3,
+.footer__items-list-4 {
+    margin-right: 99px;
+}
+
+.footer__item-1 {
+    margin-bottom: 29px;
+}
+
+/*второй список*/
+
+.footer__items-list-2,
+.footer__items-list-3,
+.footer__items-list-4,
+.footer__items-list-5 {
+    flex-direction: column;
+}
+
+.footer__items-list-6 {
+    gap: 13px
+}
+
+.footer__text-1 {
+    font-family: 'DMSans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.footer__link-2,
+.footer__link-3,
+.footer__link-4,
+.footer__link-5 {
+    font-size: 18px;
+    line-height: 49px;
+    letter-spacing: 1%;
+}
+
+.footer__items-list-6 {
+    flex-direction: row-reverse;
+}
+
+.footer {
+    margin-bottom: 25px;
+}
+
+/*линия*/
+
+.footer__line {
+    width: 100%; /* Длина линии */
+    height: 1px; /* Толщина линии */
+    background-color: #969696; /* Цвет линии */
+    margin: 0 auto; /* Центрируем линию (если она находится внутри отличающегося от 1440px контейнера) */
+    margin-bottom: 26px;
+}
+
+.footer__item-element,
+.footer__description {
+    font-family: 'Rubik',  sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #646464;
+}
+
+.footer__block-element {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.footer__list-protection {
+    gap: 52px;
+}
+
+.footer__text-element {
+    margin-right: 650px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
